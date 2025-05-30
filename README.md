@@ -33,25 +33,30 @@ https://containerization-vs-virtualization-a3wkedjwrlpsnomj3eaf8q.streamlit.app/
 To get this application running on your local machine, follow these simple steps:
 
 Clone the Repository:
-
-Bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
+   ```bash
+    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+    cd YOUR_REPOSITORY_NAME
+   ```
  (Replace YOUR_USERNAME and YOUR_REPOSITORY_NAME with your actual GitHub details.)
 
  Create a Virtual Environment (Recommended):
-
-Bash
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
  Install Dependencies:
 
 Code snippet
+
+```bash
 pip install -r requirements.txt
+```
+
  Run the Streamlit Application:
 
-Bash
+```bash
 streamlit run app.py
+```
  Your web browser should automatically open a new tab displaying the application. If not, navigate to http://localhost:8501.
  
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
